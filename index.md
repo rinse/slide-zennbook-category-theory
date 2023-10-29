@@ -13,11 +13,41 @@ theme: white
 
 おしまいみたいな状況
 
-### 例: 普遍性ってなんだっけ……
+### 例: 積
 
-![](images/universal-property.png)
+Javaの積 😄
 
-### これだけ見ても分かるわけがない！
+```Java
+class Pair<A, B> {
+    public A a;
+    public B b;
+}
+```
+
+### 例: 積
+
+Haskellの積 😊
+
+```Haskell
+(a, b)
+```
+
+### 例: 圏論の積 😇
+
+$\mathbf C$を対象$X_1$, $X_2$を持つ圏とする。
+$X_1$と$X_2$との積とは、$X_1 \times X_2$と書かれる$\mathbf C$の対象と二つの射$p_1: X_1 \times X_2 \to X_1$および$p_1: X_1 \times X_2 \to X_2$との組であって、
+任意の対象$Y$と射$f_1: Y \to X_1$および$f_2: Y \to X_2$とが与えられたとき、一意な射$u: Y \to X_1 \times X_2$が常に存在して、
+$f_1 = p_1 \circ u$かつ$f_2 = p_2 \circ u$を満たすものをいう。
+
+### 例: 圏論の積(2)
+
+積とは、図式$F: \mathbf 2 \to \mathbf C$の極限である。
+
+### 例: 圏論の積(3)
+
+積とは、対角関手$\Delta: \mathbf C \to \mathbf C \times \mathbf C$から$\mathbf C \times \mathbf C$の対象$(X_1, X_2)$への普遍射である。
+
+### じゃあ普遍射ってなんだっけ
 
 圏$\mathbf C$, $\mathbf D$, 関手$F: \mathbf C \to \mathbf D$を考えるとき、
 Fから対象$A \in ob(\mathbf D)$への普遍射は、
@@ -67,6 +97,6 @@ https://zenn.dev/esnir/books/9595ef4f5dc413
 
 ### まとめ
 
-- 勉強したことは、人に見せられる形で公開しよう
+- 勉強したことを、人に見せられる形で公開すると、自身の理解をより深めることができる
 - Zennは複数の独立した内容を一冊の本にまとめられて嬉しい
 
