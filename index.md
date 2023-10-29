@@ -35,7 +35,7 @@ Haskellの積 😊
 ### 例: 圏論の積 😇
 
 $\mathbf C$を対象$X_1$, $X_2$を持つ圏とする。
-$X_1$と$X_2$との積とは、$X_1 \times X_2$と書かれる$\mathbf C$の対象と二つの射$p_1: X_1 \times X_2 \to X_1$および$p_1: X_1 \times X_2 \to X_2$との組であって、
+$X_1$と$X_2$との積とは、$X_1 \times X_2$と書かれる$\mathbf C$の対象と二つの射$p_1: X_1 \times X_2 \to X_1$および$p_2: X_1 \times X_2 \to X_2$との組であって、
 任意の対象$Y$と射$f_1: Y \to X_1$および$f_2: Y \to X_2$とが与えられたとき、一意な射$u: Y \to X_1 \times X_2$が常に存在して、
 $f_1 = p_1 \circ u$かつ$f_2 = p_2 \circ u$を満たすものをいう。
 
