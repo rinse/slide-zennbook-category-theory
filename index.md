@@ -13,6 +13,8 @@ theme: white
 
 おしまいみたいな状況
 
+## 圏論に触れてみよう
+
 ### 例: 積
 
 Javaの積 😄
@@ -39,15 +41,19 @@ $X_1$と$X_2$との積とは、$X_1 \times X_2$と書かれる$\mathbf C$の対�
 任意の対象$Y$と射$f_1: Y \to X_1$および$f_2: Y \to X_2$とが与えられたとき、一意な射$u: Y \to X_1 \times X_2$が常に存在して、
 $f_1 = p_1 \circ u$かつ$f_2 = p_2 \circ u$を満たすものをいう。
 
-### 例: 圏論の積(2)
+## 例: 圏論の積(2)
 
 積とは、図式$F: \mathbf 2 \to \mathbf C$の極限である。
 
-### 例: 圏論の積(3)
+### 極限とは
+
+極限とは、添え字圏$\mathbf J$と図式$D: \mathbf J \to \mathbf C$を考えるとき、定関手$\Delta_L: \mathbf J \to \mathbf C$から図式$D$への自然変換$\eta: \Delta_L \Rightarrow D$で表される錐$(L, \eta)$であって、任意の錐$(N, \epsilon)$に対して一意な射$u: N \to L$が常に存在して、$\mathbf J$の任意の対象$X$に対して$\epsilon_X = \eta_X \circ u$を満たすものである。
+
+## 例: 圏論の積(3)
 
 積とは、対角関手$\Delta: \mathbf C \to \mathbf C \times \mathbf C$から$\mathbf C \times \mathbf C$の対象$(X_1, X_2)$への普遍射である。
 
-### じゃあ普遍射ってなんだっけ
+### 普遍射とは
 
 圏$\mathbf C$, $\mathbf D$, 関手$F: \mathbf C \to \mathbf D$を考えるとき、
 Fから対象$A \in ob(\mathbf D)$への普遍射は、
@@ -67,7 +73,7 @@ $f = u \circ F(g)$を満たす。
 
 https://qiita.com/sparklingbaby/items/c819f3a88fe63341390f
 
-## 圏論でも記録が必要そう
+## 圏論でも記録を付けたい
 
 Zennでは本を書くことができるし、この機会に作ってみよう
 
@@ -85,8 +91,9 @@ https://zenn.dev/esnir/books/9595ef4f5dc413
 ## 雑感
 
 - 本の書き心地は悪くはない
-    - 一度公開してしまうと、下書きが書けなくなるのはややつらい
-    - 可換図式を描けないのがつらい。Qiitaでは描けるのに
+    - スマホで書きづらい
+    - 一度公開してしまうと、下書きが書けなくなる
+    - 可換図式を描けないのがつらい
 - 飽きて中断して、また一年後見返したときに理解できるかは謎
 
 ### 雑感
